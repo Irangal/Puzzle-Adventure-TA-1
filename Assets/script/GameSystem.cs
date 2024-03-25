@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameSystem : MonoBehaviour
 {
@@ -10,7 +11,16 @@ public class GameSystem : MonoBehaviour
     public OnDrag_Obj[] Obj_Drag;
     public bool SystemAcak;
     public int Target;
-   
+
+    [Header("Win System")]
+    public int winCount;
+    public Text namaWin;
+    public Image gambarWin;
+    public Text Penjelasan;
+
+    [Header("Panel Win&Lose")]
+    public GameObject panelWin;
+    public GameObject panelLose;
 
 
     [System.Serializable ]
@@ -18,7 +28,7 @@ public class GameSystem : MonoBehaviour
     {
         public string Nama;
         public Sprite Gambar;
-        
+        [TextArea(5,10)]public string Penjelasan;
     }
     [Header(" Settingan Default ")]
     public DataGame[] DataPermainan;
@@ -29,13 +39,21 @@ public class GameSystem : MonoBehaviour
     }
     // Start is called before the first frame update
     int random;
-    int random2; 
+    int random2;
+
+    
     void Start()
     {
         AcakGambar();
+
+
     }
     public List<int> AcakSoal = new List<int>();
     public List<int> AcakPosisi  = new List<int>();
+
+
+
+
     public void AcakGambar ()
     {
         AcakSoal.Clear();
@@ -61,13 +79,17 @@ public class GameSystem : MonoBehaviour
 
         for (int i = 0; i < AcakPosisi.Count; i++)
         {
-            random2 = Random.Range(1, AcakSoal .Count+1);
+            random2 = Random.Range(1, AcakSoal.Count + 1);
             while
                 (AcakPosisi.Contains(random2))
                 random2 = Random.Range(1, AcakSoal.Count + 1 );
             AcakPosisi [i] = random2 ;
             Drop_Tempat[i].Drop.ID = AcakSoal [random2 - 1] -1 ;
             Drop_Tempat[i].Gambar.sprite = DataPermainan[Drop_Tempat[i].Drop.ID].Gambar;
+            namaWin.text = DataPermainan[Drop_Tempat[i].Drop.ID].Nama;
+            gambarWin.sprite = DataPermainan[Drop_Tempat[i].Drop.ID].Gambar;
+            Penjelasan.text = DataPermainan[Drop_Tempat[i].Drop.ID].Penjelasan;
+
         }
     }
     // Update is called once per frame
@@ -75,7 +97,14 @@ public class GameSystem : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
             AcakGambar();
-       
 
     }
+
+    public void NextLevel()
+    {
+        AcakGambar();
+        if (winCount >=4)
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
 }

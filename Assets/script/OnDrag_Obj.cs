@@ -35,22 +35,28 @@ public class OnDrag_Obj : MonoBehaviour
             int ID_TempatDrop = SaveObj.GetComponent<Tempat_Drop>().ID;
             if (ID == ID_TempatDrop)
             {
-                transform.SetParent(SaveObj);
-                transform.localPosition = Vector3.zero;
-                transform.localScale = SaveObj.localScale;
+                //transform.SetParent(SaveObj);
+                //transform.localPosition = Vector3.zero;
+                //transform.localScale = SaveObj.localScale;
+
+                //SaveObj.GetComponent<SpriteRenderer>().enabled = false;
+                //SaveObj.GetComponent<Rigidbody2D >().simulated = false;
+                //SaveObj.GetComponent<BoxCollider2D >().enabled = false;
+                //gameObject.GetComponent<BoxCollider2D>().enabled = false;
+
+                //OnDragBenar.Invoke ();
+                //SceneManager.LoadScene(playSceneName);
+
                 
-                SaveObj.GetComponent<SpriteRenderer>().enabled = false;
-                SaveObj.GetComponent<Rigidbody2D >().simulated = false;
-                SaveObj.GetComponent<BoxCollider2D >().enabled = false;
-                gameObject.GetComponent<BoxCollider2D>().enabled = false;
-
-                OnDragBenar.Invoke ();
-                SceneManager.LoadScene(playSceneName);
-
+                GameSystem.instance.winCount += 1;
+                transform.position = SavePosisi;
+                GameSystem.instance.panelWin.SetActive(true);
             }
             else
             {
                 transform.position = SavePosisi;
+                GameSystem.instance.panelLose.SetActive(true);
+                GameSystem.instance.AcakGambar();
             }
            
         }
