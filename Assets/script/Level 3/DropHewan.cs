@@ -28,14 +28,12 @@ public class DropHewan : MonoBehaviour,IDropHandler
         if (instance.Makanan == Makanan && instance != null)
         {
             ManagerMakanan.Instance.winCount++;
-            Debug.Log("BETULL!!");
-            //instance.Cocok(transform);
-            //terisi = true;
-
+            //Debug.Log("BETULL!!");
+            ManagerMakanan.Instance.panelWin.SetActive(true);
         }
         else
         {
-            Debug.Log("SALAH");
+            ManagerMakanan.Instance.panelLose.SetActive(true);
         }
 
 

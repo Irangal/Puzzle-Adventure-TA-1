@@ -30,6 +30,8 @@ public class ManagerMakanan : MonoBehaviour
 
     public int winCount;
     public Text namaWin;
+    public Image GambarWin;
+    public Text Ketarangan;
 
     [Header("Panel Win&Lose")]
     public GameObject panelWin;
@@ -54,14 +56,25 @@ public class ManagerMakanan : MonoBehaviour
     {
 
         int randomData = Random.Range(0, DataPermainan.Length);
-        //InitKata(DataPermainan[randomData].Nama);
+
         imageHolder.sprite = DataPermainan[randomData].Gambar;
         imageHolder.GetComponent<DropHewan>().Makanan = DataPermainan[randomData].Makanan;
-        //Makanan = DataPermainan[randomData].Makanan;
-        //namaWin.text = DataPermainan[randomData].Nama;
+
+        //Game Win
+        namaWin.text = DataPermainan[randomData].Nama;
+        GambarWin.sprite = DataPermainan[randomData].Gambar;
+        Ketarangan.text = DataPermainan[randomData].Penjelasan;
 
 
+    }
 
+    public void NextLevel()
+    {
+        SpawnHewan();
+        if(winCount >= 4)
+        {
+
+        }
     }
 
 }

@@ -32,6 +32,16 @@ public class DragScript : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
         //hurufDisplay.gameObject.SetActive(!petunjuk);
     }
 
+    public void Inisialisasi2(Transform parent, string huruf, bool petunjuk)
+    {
+        Huruf = huruf;
+        transform.SetParent(parent);
+        hurufDisplay.SetText(Huruf);
+        this.petunjuk = petunjuk;
+        GetComponent<CanvasGroup>().alpha = 1f;
+        //hurufDisplay.gameObject.SetActive(!petunjuk);
+    }
+
 
     public void Cocok(Transform parent)
     {
