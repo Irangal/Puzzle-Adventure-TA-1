@@ -1345,7 +1345,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0, y: 316}
+  m_AnchoredPosition: {x: 58, y: 672}
   m_SizeDelta: {x: 1670.829, y: 472.639}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &749736670
@@ -1369,10 +1369,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: a8240b3f346f28c419922a48a988361b, type: 3}
     m_FontSize: 196
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 196
     m_Alignment: 4
@@ -1845,8 +1845,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000099182, y: 1870}
-  m_SizeDelta: {x: 1472.8, y: 467.234}
+  m_AnchoredPosition: {x: -0.0000095367, y: 1648}
+  m_SizeDelta: {x: 1228.978, y: 215.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1019749947
 MonoBehaviour:
@@ -1872,7 +1872,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: a8240b3f346f28c419922a48a988361b, type: 3}
     m_FontSize: 120
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 1
     m_MaxSize: 200
     m_Alignment: 4
@@ -1924,8 +1924,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000013351, y: 1187}
-  m_SizeDelta: {x: 1335.915, y: 1116.578}
+  m_AnchoredPosition: {x: 64.981, y: 1214.039}
+  m_SizeDelta: {x: 1156.163, y: 766.671}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1157491753
 CanvasRenderer:
@@ -2136,8 +2136,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 2060, y: 4220}
+  m_AnchoredPosition: {x: 0, y: -395.4}
+  m_SizeDelta: {x: 2060, y: 5010.792}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1342595084
 MonoBehaviour:
@@ -2159,8 +2159,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: d168870a0b48be2439499cb44b77136c, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2211,7 +2211,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00015259, y: 1050.943}
+  m_AnchoredPosition: {x: 20.734, y: 618}
   m_SizeDelta: {x: 1367.545, y: 1397.387}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1483879901
@@ -2578,8 +2578,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -392}
-  m_SizeDelta: {x: 1647.843, y: 401.202}
+  m_AnchoredPosition: {x: -0.0000095367, y: -995}
+  m_SizeDelta: {x: 1842.635, y: 632.56}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1867445333
 MonoBehaviour:
@@ -2643,23 +2643,51 @@ MonoBehaviour:
   - NamaTipe: 
     Nama: BOROBUDUR
     Gambar: {fileID: -6563516332282580635, guid: 145361f244cc61b418f20fba791caecf, type: 3}
-    Penjelasan: 
+    Penjelasan: Borobudur adalah sebuah candi Buddha yang terletak di Magelang, Jawa
+      Tengah, Indonesia. Candi ini merupakan salah satu peninggalan sejarah dan kebudayaan
+      terpenting di Indonesia, bahkan di Asia Tenggara
   - NamaTipe: JAM
     Nama: GADANG
     Gambar: {fileID: 21300000, guid: 57ead60084a1dca4dae6a59cea121a8b, type: 3}
-    Penjelasan: 
+    Penjelasan: Jam Gadang adalah sebuah landmark ikonik yang terletak di pusat Kota
+      Bukittinggi, Sumatera Barat, Indonesia. Bangunan ini merupakan jam menara yang
+      menjadi simbol kota Bukittinggi dan menjadi salah satu objek wisata populer
+      di wilayah tersebut.
   - NamaTipe: 
     Nama: MONAS
     Gambar: {fileID: 21300000, guid: 991ddc3289eb6c045acbe4990bb52258, type: 3}
-    Penjelasan: 
+    Penjelasan: Monas, atau Monumen Nasional, adalah landmark yang terletak di pusat
+      Jakarta, ibu kota Indonesia. Monas menjadi salah satu ikon kota Jakarta dan
+      juga simbol kebanggaan nasional bagi masyarakat Indonesia.
   - NamaTipe: TUGU
     Nama: JOGJA
     Gambar: {fileID: 21300000, guid: b90bb566726bbf84ea409bd8a934f312, type: 3}
-    Penjelasan: 
+    Penjelasan: Tugu Yogyakarta, atau yang biasa disebut Tugu Jogja, adalah salah
+      satu landmark terkenal yang terletak di pusat Kota Yogyakarta, Indonesia. Tugu
+      ini menjadi salah satu simbol kota ini dan menjadi titik pusat bagi banyak
+      kegiatan masyarakat setempat.
   - NamaTipe: TUGU
     Nama: MUDA
     Gambar: {fileID: 21300000, guid: b723c1262e40de94ba65aefeec4f306c, type: 3}
-    Penjelasan: 
+    Penjelasan: Tugu Muda adalah sebuah landmark yang terletak di Semarang, Jawa
+      Tengah, Indonesia. Tugu ini memiliki nilai sejarah yang tinggi karena merupakan
+      simbol perjuangan dan kebanggaan bagi masyarakat Semarang dan Indonesia pada
+      umumnya.
+  - NamaTipe: 
+    Nama: SELAMAT DATANG
+    Gambar: {fileID: 21300000, guid: 0fbdeb97c430c8447a8712af65068459, type: 3}
+    Penjelasan: Tugu Selamat Datang adalah salah satu landmark terkenal yang terletak
+      di Bundaran Hotel Indonesia, Jakarta, Indonesia. Tugu ini adalah salah satu
+      ikon Kota Jakarta dan menjadi salah satu simbol modernisasi dan kemajuan kota
+      ini.
+  - NamaTipe: 
+    Nama: GEDUNG SATE
+    Gambar: {fileID: 21300000, guid: caa53b51c733637439c35f45c3dcbe09, type: 3}
+    Penjelasan: gedung Sate adalah sebuah bangunan bersejarah yang menjadi ikon Kota
+      Bandung, Jawa Barat, Indonesia. Bangunan ini terletak di Jalan Diponegoro dan
+      awalnya dibangun sebagai kantor pemerintahan Hindia Belanda pada tahun 1920-an.
+      Nama "Gedung Sate" berasal dari ornamen atapnya yang memiliki bentuk menyerupai
+      tusuk sate.
   winCount: 0
   namaTipeWin: {fileID: 749736670}
   namaWin: {fileID: 2107730842}
@@ -2738,7 +2766,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -3
-  m_Sprite: {fileID: 21300000, guid: 13344f585fba0724f9930ac95c7f52b0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 664abfcdd719c6c4db7d1dec6cdd0d0d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2757,8 +2785,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1932598668}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.099975586, y: 2.3000488, z: 0}
-  m_LocalScale: {x: 1.152284, y: 2.0112584, z: 1}
+  m_LocalPosition: {x: -0.0125, y: -0.0629, z: 0}
+  m_LocalScale: {x: 0.39364147, y: 0.36004546, z: 0.49233833}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -2796,8 +2824,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0058746, y: -1213}
-  m_SizeDelta: {x: 1647.8, y: 696.131}
+  m_AnchoredPosition: {x: -0.017498, y: -1694.3}
+  m_SizeDelta: {x: 1842.6, y: 988.192}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1996182109
 MonoBehaviour:
@@ -2820,7 +2848,7 @@ MonoBehaviour:
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 200, y: 200}
-  m_Spacing: {x: 100, y: 100}
+  m_Spacing: {x: 32, y: 100}
   m_Constraint: 2
   m_ConstraintCount: 2
 --- !u!1 &2032064223
@@ -2893,7 +2921,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -92}
+  m_AnchoredPosition: {x: 20.734, y: -630}
   m_SizeDelta: {x: 1647.843, y: 401.202}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2042060847
@@ -2954,7 +2982,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0, y: 48}
+  m_AnchoredPosition: {x: 58, y: 437}
   m_SizeDelta: {x: 1670.829, y: 472.639}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2107730841
@@ -2986,10 +3014,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: a8240b3f346f28c419922a48a988361b, type: 3}
     m_FontSize: 196
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 196
     m_Alignment: 4
@@ -3033,8 +3061,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000076294, y: -907.68}
-  m_SizeDelta: {x: 1670.829, y: 1815.4}
+  m_AnchoredPosition: {x: 57.99999, y: -238.693}
+  m_SizeDelta: {x: 1521.938, y: 1081.288}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2147463437
 CanvasRenderer:
@@ -3057,7 +3085,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3065,15 +3093,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 150
-    m_FontStyle: 0
-    m_BestFit: 0
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
+    m_FontSize: 120
+    m_FontStyle: 2
+    m_BestFit: 1
     m_MinSize: 1
-    m_MaxSize: 196
+    m_MaxSize: 150
     m_Alignment: 4
     m_AlignByGeometry: 0
-    m_RichText: 1
+    m_RichText: 0
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
