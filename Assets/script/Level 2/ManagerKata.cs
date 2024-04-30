@@ -46,6 +46,16 @@ public class ManagerKata : MonoBehaviour
         Instance = this;
 
         SpawnKata();
+
+        
+        AudioManager.Instance.x = true;
+        if (AudioManager.Instance.x == true)
+        {
+            AudioManager.Instance.PlayMusic("Gameplay");
+
+            AudioManager.Instance.x = false;
+        }
+        AudioManager.Instance.PauseSound();
     }
 
     // Update is called once per frame
@@ -191,6 +201,7 @@ public string AcakKata()
 
         if (poin == poinKata)
         {
+            AudioManager.Instance.PlaySFX("SFX Win");
             panelWin.SetActive(true);
             winCount++;
             poin = 0;

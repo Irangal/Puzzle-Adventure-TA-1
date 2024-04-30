@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 public enum JenisMakanan { Daging, Tumbuhan, Segala }
 public class ManagerMakanan : MonoBehaviour
@@ -36,12 +37,23 @@ public class ManagerMakanan : MonoBehaviour
     [Header("Panel Win&Lose")]
     public GameObject panelWin;
     public GameObject panelLose;
+    public GameObject panelFinalWin;
     // Start is called before the first frame update
     void Start()
     {
         Instance = this;
 
         SpawnHewan();
+
+        
+        AudioManager.Instance.x = true;
+        if (AudioManager.Instance.x == true)
+        {
+            AudioManager.Instance.PlayMusic("Gameplay");
+
+            AudioManager.Instance.x = false;
+        }
+        AudioManager.Instance.PauseSound();
     }
 
     // Update is called once per frame
@@ -73,8 +85,20 @@ public class ManagerMakanan : MonoBehaviour
         SpawnHewan();
         if(winCount >= 4)
         {
-
+            panelFinalWin.SetActive(true);
         }
+    }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+
+    public void BackMainMenu()
+    {
+        SceneManager.LoadScene(0);
+        //AudioManager.Instance.x = true;
     }
 
 }

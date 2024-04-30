@@ -51,12 +51,15 @@ public class OnDrag_Obj : MonoBehaviour
                 GameSystem.instance.winCount += 1;
                 transform.position = SavePosisi;
                 GameSystem.instance.panelWin.SetActive(true);
+
+                AudioManager.Instance.PlaySFX("SFX Win");
             }
             else
             {
                 transform.position = SavePosisi;
                 GameSystem.instance.panelLose.SetActive(true);
                 GameSystem.instance.AcakGambar();
+                AudioManager.Instance.PlaySFX("SFX Lose");
             }
            
         }

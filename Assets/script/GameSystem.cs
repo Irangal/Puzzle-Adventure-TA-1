@@ -46,7 +46,16 @@ public class GameSystem : MonoBehaviour
     {
         AcakGambar();
 
+        
+        AudioManager.Instance.x = true;
+        if (AudioManager.Instance.x == true)
+        {
+            AudioManager.Instance.PlayMusic("Gameplay");
 
+            AudioManager.Instance.x = false;
+        }
+
+        AudioManager.Instance.PauseSound();
     }
     public List<int> AcakSoal = new List<int>();
     public List<int> AcakPosisi  = new List<int>();

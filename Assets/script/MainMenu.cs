@@ -34,6 +34,18 @@ public class MainMenu : MonoBehaviour
     public Image gambarBangunan;
     public Text keteranganBangunan;
 
+
+    private void Start()
+    {
+        AudioManager.Instance.x = true;
+        if (AudioManager.Instance.x == true)
+        {
+            AudioManager.Instance.PlayMusic("MainMenu");
+
+            AudioManager.Instance.x = false;
+        }
+    }
+
     public void SpawnHewan(int data)
     {
         namaHewan.text = DataHewan[data - 1].Nama;
