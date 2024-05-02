@@ -29,11 +29,13 @@ public class DropHewan : MonoBehaviour,IDropHandler
         {
             ManagerMakanan.Instance.winCount++;
             //Debug.Log("BETULL!!");
+            AudioManager.Instance.PlaySFX("SFX Win");
             ManagerMakanan.Instance.panelWin.SetActive(true);
         }
         else
         {
             ManagerMakanan.Instance.panelLose.SetActive(true);
+            AudioManager.Instance.PlaySFX("SFX Lose");
         }
 
 

@@ -174,9 +174,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSounds:
   - name: MainMenu
-    clip: {fileID: 8300000, guid: 18789a6828108d641a83380549a81fd7, type: 3}
-  - name: Gameplay
     clip: {fileID: 8300000, guid: dae6c68fbf0e24b4386b0c5893af9047, type: 3}
+  - name: Gameplay
+    clip: {fileID: 8300000, guid: 18789a6828108d641a83380549a81fd7, type: 3}
   sfxSounds:
   - name: SFX Win
     clip: {fileID: 8300000, guid: 394dd8cafb90c3c4c81d4d387d681f79, type: 3}
