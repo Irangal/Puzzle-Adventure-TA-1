@@ -607,7 +607,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 148}
+  m_AnchoredPosition: {x: 0, y: 287}
   m_SizeDelta: {x: 424.3054, y: 373.5972}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &104546422
@@ -623,7 +623,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.7924528, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4689,9 +4689,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.98879445, b: 0, a: 1}
+    m_PressedColor: {r: 1, g: 0, b: 0, a: 1}
+    m_SelectedColor: {r: 1, g: 0, b: 0, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -5807,8 +5807,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -44}
-  m_SizeDelta: {x: 424.3054, y: 373.5972}
+  m_AnchoredPosition: {x: 16.722412, y: 0}
+  m_SizeDelta: {x: 457.7502, y: 421.3755}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1466272278
 MonoBehaviour:
@@ -5823,7 +5823,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5834,7 +5834,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: a8240b3f346f28c419922a48a988361b, type: 3}
     m_FontSize: 44
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 103
     m_Alignment: 4
@@ -5843,7 +5843,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: AAAAAAAAAAAA
+  m_Text: "Game design : \n\nirang algiffary \n\nProgrammer :\n\nSabdayagra Ahesa
+    Kharisma N. \n& Irang al giffary "
 --- !u!222 &1466272279
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7845,8 +7846,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -0.000015258789, y: 0.000015258789}
+  m_SizeDelta: {x: -110.1077, y: -40.1184}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1738386711
 MonoBehaviour:
@@ -7870,10 +7871,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: a8240b3f346f28c419922a48a988361b, type: 3}
-    m_FontSize: 74
+    m_FontSize: 12
     m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
+    m_BestFit: 1
+    m_MinSize: 0
     m_MaxSize: 124
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -9161,8 +9162,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -373}
-  m_SizeDelta: {x: 403.36, y: 142.3276}
+  m_AnchoredPosition: {x: 9.239, y: -373.8777}
+  m_SizeDelta: {x: 472.72, y: 105.7829}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2118588826
 MonoBehaviour:
@@ -9292,8 +9293,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -120}
-  m_SizeDelta: {x: 830, y: 985}
+  m_AnchoredPosition: {x: 0, y: -44}
+  m_SizeDelta: {x: 975.729, y: 1157.9434}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2119639374
 MonoBehaviour:
@@ -9388,5 +9389,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Audio Manager
       objectReference: {fileID: 0}
+    - target: {fileID: 8540828996599177396, guid: a3ce9d4efc97f794d866ac60f0a44b68, type: 3}
+      propertyPath: musicSounds.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: dae6c68fbf0e24b4386b0c5893af9047, type: 3}
+    - target: {fileID: 8540828996599177396, guid: a3ce9d4efc97f794d866ac60f0a44b68, type: 3}
+      propertyPath: musicSounds.Array.data[1].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 18789a6828108d641a83380549a81fd7, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3ce9d4efc97f794d866ac60f0a44b68, type: 3}
